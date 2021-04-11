@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  migrate_fishhish2zshhis:
+    image: rubylang/ruby:2.7.3-bionic
+    volumes:
+      - ./:/home/ubuntu
+    working_dir: /home/ubuntu
+    command: ruby migrate.rb
