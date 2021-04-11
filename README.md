@@ -13,5 +13,5 @@ Requirements
 $ make migrate_fishhish2zshhis
 ```
 
-After running script, it returns zsh_history file. 
-It's up to you whether append to your .zsh_history or simply move output history file to your home directory
+After running script, it returns .zsh_history file. 
+It's up to you whether appending to your .zsh_history or simply move output file to your home directory
